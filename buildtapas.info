@@ -1,0 +1,102 @@
+
+name = Buildtapas
+project = tapas
+description = For deploying and setting up test environments for the TAPAS website
+
+; Should update this to latest version when new Drupal core versions are released
+core = 7.51
+
+; This auto-selects the profile, allowing us to install it via script without
+; manual intervention.
+exclusive = true
+
+
+; -----------------------------------------------------------------------------
+;                                  Modules
+; -----------------------------------------------------------------------------
+; List the modules (core, contrib and/or features) to be enabled in the
+; dependencies[] array. Any dependencies of the listed modules will be detected
+; and enabled automatically.
+; -----------------------------------------------------------------------------
+
+
+; Core
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contact
+dependencies[] = contextual
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = forum
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = rdf
+dependencies[] = search
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = update
+dependencies[] = user
+
+; contrib
+dependencies[] = admin_menu
+dependencies[] = advanced_help
+dependencies[] = block_class
+dependencies[] = context
+dependencies[] = context_ui
+dependencies[] = crumbs
+dependencies[] = ctools
+dependencies[] = date
+dependencies[] = date_api
+dependencies[] = devel
+dependencies[] = devel_generate
+dependencies[] = devel_node_access
+dependencies[] = diff
+dependencies[] = ds
+dependencies[] = ds_devel
+dependencies[] = ds_forms
+dependencies[] = ds_search
+dependencies[] = ds_ui
+dependencies[] = entity
+dependencies[] = entity_token
+dependencies[] = entityreference
+dependencies[] = fe_block
+dependencies[] = features
+dependencies[] = field_group
+dependencies[] = jquery_update
+dependencies[] = link
+dependencies[] = menu_item_visibility
+dependencies[] = name
+dependencies[] = og
+dependencies[] = og_access
+dependencies[] = og_context
+dependencies[] = og_extras
+dependencies[] = og_register
+dependencies[] = og_ui
+dependencies[] = page_manager
+dependencies[] = pathauto
+dependencies[] = prepopulate
+dependencies[] = simpletest
+dependencies[] = token
+dependencies[] = uuid
+dependencies[] = views
+dependencies[] = views_bootstrap
+dependencies[] = views_bulk_operations
+dependencies[] = views_ui
+dependencies[] = views_field_view
+dependencies[] = views_field_view
+
+
+;custom modules
+dependencies[] = tapas
+
